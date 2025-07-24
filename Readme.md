@@ -1,4 +1,4 @@
-\# Asteroid Dashboard \& API
+# Asteroid Dashboard \& API
 
 
 
@@ -10,43 +10,19 @@ Aplikasi sederhana untuk mengelola data asteroid dengan backend Flask + PostgreS
 
 
 
-\## Fitur
+## Fitur
 
 
 
-\- Menampilkan daftar asteroid dari database PostgreSQL
+- Menampilkan daftar asteroid dari database PostgreSQL
 
-\- Menambah asteroid baru lewat form dashboard atau API
+- Menambah asteroid baru lewat form dashboard atau API
 
-\- Menghapus asteroid berdasarkan ID
+- Menghapus asteroid berdasarkan ID
 
-\- API RESTful lengkap untuk integrasi data asteroid
+- API RESTful lengkap untuk integrasi data asteroid
 
-\- Dashboard Bootstrap yang responsif dan mudah digunakan
-
-
-
----
-
-
-
-\## Teknologi
-
-
-
-\- Python 3.x
-
-\- Flask
-
-\- Flask SQLAlchemy
-
-\- Flask-CORS
-
-\- PostgreSQL
-
-\- Bootstrap 5
-
-\- dotenv untuk konfigurasi environment
+- Dashboard Bootstrap yang responsif dan mudah digunakan
 
 
 
@@ -54,11 +30,35 @@ Aplikasi sederhana untuk mengelola data asteroid dengan backend Flask + PostgreS
 
 
 
-\## Setup \& Running
+## Teknologi
 
 
 
-\### 1. Clone repo
+- Python 3.x
+
+- Flask
+
+- Flask SQLAlchemy
+
+- Flask-CORS
+
+- PostgreSQL
+
+- Bootstrap 5
+
+- dotenv untuk konfigurasi environment
+
+
+
+---
+
+
+
+## Setup & Running
+
+
+
+### 1. Clone repo
 
 
 
@@ -74,7 +74,7 @@ cd asteroid-dashboard-api
 
 
 
-\### 2.Buat environment (opsional pakai conda)
+### 2.Buat environment (opsional pakai conda)
 
 
 
@@ -88,7 +88,7 @@ conda activate asteroid-api
 
 
 
-\### 3. Install dependencies
+### 3. Install dependencies
 
 ```bash
 
@@ -100,7 +100,7 @@ pip install -r requirements.txt
 
 
 
-\### 4. Buat file .env
+### 4. Buat file .env
 
 isi dengan konfigurasi DB Postgre
 
@@ -120,7 +120,7 @@ DB\_NAME=asteroid\_db
 
 
 
-\### 5. Jalankan aplikasi Flask
+### 5. Jalankan aplikasi Flask
 
 ```bash
 
@@ -136,9 +136,13 @@ python app.py
 
 ```
 
-\### 6. Buka Dashboard di browser
+### 6. Buka Dashboard di browser
 
 http://127.0.0.1:5000/
+
+## Tampilan Aplikasi
+![Tampilan Aplikasi](images/capture.png)
+
 
 
 
